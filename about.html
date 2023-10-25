@@ -1,62 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Inspira Music Studio</title>
-    <link rel="stylesheet" href="styles.css" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="font-[Montserrat] bg-black">
-    <header class="bg-gradient-to-b from-[#000] to-transparent h-40">
-      <nav class="flex justify-between items-center w-[92%]">
-        <div>
-          <img
-            class="py-8 px-10 ml-4"
-            src="assets/images/logo.png"
-            alt="Logo"
-          />
-        </div>
-        <div class="">
-          <ul class="flex items-end gap-[7vw]">
-            <li>
-              <a class="text-[#F09517]" href="#">HOME</a>
-            </li>
-            <li>
-              <a class="text-[#F09517] font-bold" href="#">ABOUT</a>
-            </li>
-            <li>
-              <a class="text-[#F09517]" href="#">SERVICES</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <div class="container relative h-screen">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Inspira Music Studio</title>
+  <link rel="stylesheet" href="styles.css" />
 
-      <div id="section1" class="container bg-black h-[30%] relative">
-        <h1 class="text-[#F09517] text-8xl font-bold bottom-[15%] ml-40">Inspira</h1>
-        <p class="text-[#F09517] text-5xl ml-40">Music Studio</p>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-[Montserrat] bg-black">
+  <header class="bg-gradient-to-b from-[#000] to-transparent h-40">
+    <nav class="flex justify-between items-center w-[92%]">
+      <div>
+        <img class="py-8 px-10 ml-4" src="assets/images/logo.png" alt="Logo" />
+      </div>
+      <div class="">
+        <ul class="flex items-end gap-[7vw]">
+          <li>
+            <a class="text-[#F09517]" href="index.html">HOME</a>
+          </li>
+          <li>
+            <a class="text-[#F09517] font-bold" href="#">ABOUT</a>
+          </li>
+          <li>
+            <a class="text-[#F09517]" href="#">SERVICES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- section 1, black bg -->
+  <div class="bg-black h-[693px]">
+    <div class="pt-[411px]">
+      <h1 class="text-[#F09517] text-8xl font-bold  ml-40">Inspira</h1>
+      <p class="text-[#F09517] text-5xl ml-40">Music Studio</p>
     </div>
-    <div id="imgFloating" class="absolute left-[50%] bottom-[1%] translate-y-1/4">
+    <div id="imgFloating" class="absolute left-[50%] top-[0px] mt-[125px]">
       <img src="assets/images/inspira-1.png" alt="Hero Image">
     </div>
-    <div id="section2" class="container h-[70%] bg-[#D9D9D9]">
-      <p class="text-xl text-justify ml-40 pt-14">
-        Sebuah studio musik yang berlokasi di Baros,<br>Cimahi.Studio yang
-        menawarkan berbagai kursus <br>musik serta jasa audio dan video recording
-        yang <br>meliputi berbagai bidang. Dimulai dari pembuatan <br>video klip musik
-        hingga foto / video produk <br>makanan, fashion dan sebagainya.
-      </p>
-    </div>
   </div>
-  </body>
+  <!-- section 2 -->
+  <div class="bg-[#D9D9D9] h-max">
+    <p class="text-xl text-justify ml-40 pt-14 w-[528px]">Sebuah studio musik yang berlokasi di Baros, Cimahi.Studio
+      yang menawarkan berbagai kursus musik serta jasa audio dan video recording yang meliputi berbagai bidang. Dimulai
+      dari pembuatan video klip musik hingga foto / video produk makanan, fashion dan sebagainya.</p>
+
+    <h2 class="mt-[350px] text-center text-[48px] font-[700] mb-[106px]">OUR INSTRUCTORS</h2>
+    <!-- instructors -->
+    <div class="flex justify-center mb-[123px]">
+      <div class="flex flex-col ml-[40px] mr-[40px] items-center w-[276px] text-center h-[827px]">
+        <img class="rounded-[50%] mt-[20px] h-[218px] w-[218px]" src="assets/images/daud_j_pamei.jpg" alt="">
+        <h3 class="mt-[20px] text-[32px] font-[700] italic">Daud J. Pamei</h3>
+        <p class="mt-[20px]">Lorem ipsum dolor sit amet consectetur. Sed mattis neque morbi enim cursus aliquet mattis
+          dis.</p>
+      </div>
+      <div class="flex flex-col ml-[40px] mr-[40px] items-center w-[276px] text-center h-[827px]">
+        <img class="rounded-[50%] mt-[20px] h-[218px] w-[218px]" src="" alt="">
+        <h3 class="mt-[20px] text-[32px] font-[700] italic">Joan Bagas</h3>
+        <p class="mt-[20px]">Lorem ipsum dolor sit amet consectetur. Sed mattis neque morbi enim cursus aliquet mattis
+          dis.</p>
+      </div>
+      <div class="flex flex-col ml-[40px] mr-[40px] items-center w-[276px] text-center h-[827px]">
+        <img class="rounded-[50%] mt-[20px] h-[218px] w-[218px]" src="" alt="">
+        <h3 class="mt-[20px] text-[32px] font-[700] italic">Kesa Tresna</h3>
+        <p class="mt-[20px]">Lorem ipsum dolor sit amet consectetur. Sed mattis neque morbi enim cursus aliquet mattis
+          dis.</p>
+      </div>
+    </div>
+
+
+    <!-- galleries -->
+    <div class="text-center mb-[288px]">
+      <h2 class="font-[700] text-[48px] mb-[52px]">GALLERY</h2>
+      <div>
+        <div class="flex justify-center mb-[38px]">
+          <img class="h-[351px] w-[556px] mr-[30px]" src="" alt="">
+          <img class="h-[351px] w-[457px]" src="" alt="">
+        </div>
+        <div class="flex justify-center">
+          <img class="h-[351px] w-[700px] mr-[43px]" src="" alt="">
+          <img class="h-[351px] w-[300px]" src="" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-black h-[500px]"></div>
+  </div>
+</body>
+
 </html>
