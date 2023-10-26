@@ -1,11 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Inspira Music Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet" />
 </head>
-<body>
-    
+
+<body class="font-[Montserrat] bg-black">
+    <header class="bg-gradient-to-b from-[#000] to-transparent h-40">
+        <nav class="flex justify-between items-center w-[92%]">
+            <div>
+                <img class="py-8 px-10 ml-4" src="assets/images/logo.png" alt="Logo" />
+            </div>
+            <div class="">
+                <ul class="flex items-end gap-[7vw]">
+                    <li>
+                        <a class="text-[#F09517]" href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a class="text-[#F09517]" href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="text-[#F09517] font-bold" href="services.html">SERVICES</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- wa -->
+    <div class="w-28 h-28 bg-[#F09517] rounded-full fixed bottom-[8%] right-[5%] flex items-center justify-center">
+        <a href="https://api.whatsapp.com/send?phone=085220675360">
+            <img class=" w-16 h-16" src="assets/images/whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+
+    <!-- section 1 -->
+    <div>
+        <div class=" flex justify-center items-center">
+            <img class="flex-auto" src="assets/images/services/violin 1.png" alt="">
+            <img class="flex-auto" src="assets/images/services/Drum 1.png" alt="">
+            <img class="flex-auto" src="assets/images/services/mic 1.png" alt="">
+            <img class="flex-auto" src="assets/images/services/guitar 1.png" alt="">
+            <img class="flex-auto" src="assets/images/services/Piano 1.png" alt="">
+            <h1 class="absolute  text-[#FFF] text-[96px] font-[900]">MUSIC COURSE</h1>
+        </div>
+
+        <div class="text-[#FFF]">
+            <div class="flex space-x-12 text-[16px] justify-center mt-[35px]">
+                <p>VIOLIN</p>
+                <p>VOCAL</p>
+                <p>DRUM</p>
+                <p>GUITAR</p>
+                <p>KEYBOARD</p>
+            </div>
+            <div class="flex justify-center mt-[79px]">
+                <p class="flex justify-center items-center rounded-[16px] w-[724px] h-[59px] font-[700]"
+                    style="border: 1px solid #F09517;">Semua kursus IDR 250.000 / bulan</p>
+            </div>
+            <div class="mt-[16px] flex justify-center">
+                <p>4 kali pertemuan setiap bulannya</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div>
+        <!-- header -->
+        <div class="mt-[284px] flex justify-center items-center">
+            <img class="flex-auto" src="assets/images/services/mixer 1.png" alt="">
+            <p class="absolute text-[#FFF] text-[96px] font-[900]">RECORDING</p>
+        </div>
+
+        <!-- content -->
+        <div class="flex justify-center mt-[64px] space-x-12">
+            <!-- col 1 -->
+            <div>
+                <p class="flex items-center justify-center w-[216px] h-[59px] font-[700] text-[#F09517] rounded-[16px]"
+                    style="border: 1px solid #F09517;">FIRST PACKAGE</p>
+                <div class="flex justify-center mt-[18px] w-[216px] h-[409px] rounded-[16px]"
+                    style="border: 1px solid #F09517;">
+                    <p class="w-[158px] mt-[19px] text-[14px] text-[#FFF]">
+                        Vocal and Instrument recording for 2 hours <br>
+                        Mixing and Mastering (pitch shifting not included) <br><br>
+                        Mixing and <br> Mastering (pitch shifting not included)
+                    </p>
+                </div>
+                <div class="flex justify-center items-center w-[216px] h-[59px] text-[20px] text-[#FFF] font-[700] bg-[#F09517] rounded-[16px] mt-[31px]"
+                    style="border: 1px solid #F09517;">
+                    400.000 / song
+                </div>
+            </div>
+            <!-- col 2 -->
+            <div>
+                <p class="flex items-center justify-center w-[216px] h-[59px] font-[700] text-[#F09517] rounded-[16px]"
+                    style="border: 1px solid #F09517;">SECOND PACKAGE</p>
+                <div class="flex justify-center mt-[18px] w-[216px] h-[409px] rounded-[16px]"
+                    style="border: 1px solid #F09517;">
+                    <p class="w-[158px] mt-[19px] text-[14px] text-[#FFF]">
+                        Vocal and Instrument recording for 2 hours <br><br>
+                        Mixing and Mastering (pitch shifting not included)<br><br>
+                        Video Recording for 1 hours<br><br>
+                        Video Editing
+                    </p>
+                </div>
+                <div class="flex justify-center items-center w-[216px] h-[59px] text-[20px] text-[#FFF] font-[700] bg-[#F09517] rounded-[16px] mt-[31px]"
+                    style="border: 1px solid #F09517;">
+                    600.000 / song
+                </div>
+            </div>
+            <!-- col 3 -->
+            <div>
+                <p class="flex items-center justify-center w-[216px] h-[59px] font-[700] text-[#F09517] rounded-[16px]"
+                    style="border: 1px solid #F09517;">CHOIR PACKAGE</p>
+                <div class="flex justify-center mt-[18px] w-[216px] h-[409px] rounded-[16px]"
+                    style="border: 1px solid #F09517;">
+                    <p class="w-[158px] mt-[19px] text-[14px] text-[#FFF]">
+                        Vocal and Instrument recording<br><br>
+                        Mixing and Mastering (pitch shifting not included)<br><br>
+                        Video Recording<br><br>
+                        Video Editing
+                    </p>
+                </div>
+                <div class="flex justify-center items-center w-[216px] h-[59px] text-[20px] text-[#FFF] font-[700] bg-[#F09517] rounded-[16px] mt-[31px]"
+                    style="border: 1px solid #F09517;">
+                    1.000.000 / song
+                </div>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center mt-[31px]">
+            <div class="flex items-center justify-center w-[478px] h-[59px] text-[#FFF] rounded-[16px]"
+                style="border: 1px solid #F09517;">
+                Extra time will be charged IDR 50.000 / hour
+            </div>
+            <div class="flex items-center justify-center ml-[47px] w-[216px] h-[59px] text-[#FFF] rounded-[16px]"
+                style="border: 1px solid #F09517;">
+                Max 10 singers
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 -->
+    <div>
+        <!-- header -->
+        <div class="mt-[284px] flex justify-center items-center">
+            <img class="flex-auto" src="assets/images/services/les 1.png" alt="">
+            <p class="absolute text-[#FFF] text-[96px] font-[900]">SUBJECT COURSE</p>
+        </div>
+        <div class="flex justify-center mt-[157px]">
+            <img src="assets/images/services/Brosur Rev_2 copy 1.png" alt="">
+        </div>
+    </div>
+
+    <!-- section 4 -->
+    <div>
+        <div class="mt-[101px] flex justify-center items-center">
+            <img class="flex-auto" src="assets/images/services/vlcsnap-2023-09-26-22h52m55s323 1.png" alt="">
+            <p class="absolute text-[#FFF] text-[96px] font-[900]">SUBJECT COURSE</p>
+        </div>
+        <div class="h-[272px]"></div>
+    </div>
+
 </body>
+
 </html>
